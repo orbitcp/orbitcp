@@ -42,6 +42,7 @@ until you press **Approve**.
 - **Databases**: MariaDB with phpMyAdmin, PostgreSQL 17 with PostGIS, Redis
 - **Client accounts** to host your customers, each in their own isolated Linux user, with packages and limits
 - **Security Center**: firewall, brute-force protection, safe SSH settings, web firewall and malware scans
+- **Email hosting**: mailboxes on your own domains with webmail, spam filter and DKIM
 - **Backups and cron jobs**, file manager and web terminal
 - Ready in about **3 minutes**, one command to install and upgrade
 - **Ubuntu 22.04, 24.04 and Debian 12**
@@ -73,6 +74,37 @@ At least 1 GB of memory; 2 GB or more for Node.js apps and Docker.
 | AI credits every month | | | 300 |
 
 Every new install gets a 14-day Premium trial. Plans and prices: **[orbitcp.pro/#pricing](https://orbitcp.pro/#pricing)**
+
+## 🗺️ Roadmap
+
+### Coming next
+
+- [ ] **0.15 · Page cache**: Nginx FastCGI cache, WordPress-aware purge, Redis object cache
+- [ ] **0.16 · Remote backups**: S3, Backblaze and Google Drive
+- [ ] **0.17 · Alerts**: email when a disk fills up, an SSL certificate is about to expire, or a site or service goes down
+- [ ] **0.18 · WHMCS module and API keys**: sell hosting with automatic account setup, suspend and one-click login
+- [ ] **0.19 · Release candidate**: install and upgrade tests on every supported OS, restore tests, security review
+- [ ] **1.0 · Stable release**: no breaking changes in 1.x
+- [ ] **1.1 · Reseller accounts**
+
+### Done
+
+- [x] **0.14 · Email hosting**: mailboxes, webmail, spam filter, DKIM, DNS checklist, forwarders
+- [x] **0.13 · File manager tools**: cut, copy, move, compress and extract
+- [x] **0.12 · One-line install** with checksum-verified builds
+- [x] **0.11 · Plans, licenses and AI credits**
+- [x] **0.10 · AI assistant** that fixes things only after you approve
+- [x] **0.9 · Security Center**: firewall, brute-force protection, web firewall, malware scans
+- [x] **0.8 · Developer hosting for clients**: Node.js and Python apps, PostgreSQL, Redis
+- [x] **0.7 · Client accounts** with packages, limits, PHP manager and SFTP/SSH
+- [x] **0.6 · Docker** with an App Store and compose stacks
+- [x] **0.5 · Backups and cron jobs**
+- [x] **0.4 · One-click WordPress**, Node.js and Python apps from Git
+- [x] **0.3 · Databases**: MariaDB and phpMyAdmin
+- [x] **0.2 · Websites** with free SSL
+- [x] **0.1 · First release**: dashboard, secure sign-in, file manager, web terminal, audit log
+
+Have an idea? Share it in [Discussions](https://github.com/orbitcp/orbitcp/discussions). Full details in the [changelog](https://orbitcp.pro/changelog/).
 
 ## 💬 Community and help
 
