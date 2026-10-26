@@ -1,0 +1,17 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Docs
+    url: https://orbitcp.pro/docs/
+    about: Install, websites, apps, backups, clients and licenses, step by step.
+  - name: Discord
+    url: https://discord.gg/YAF7We7sg
+    about: Chat with other OrbitCP users and the team.
+  - name: Questions and ideas
+    url: https://github.com/orbitcp/orbitcp/discussions
+    about: Ask how to do something, or share an idea with other OrbitCP users.
+  - name: Security problem
+    url: https://github.com/orbitcp/orbitcp/blob/main/SECURITY.md
+    about: Please report security issues privately by email, not in a public issue.
+  - name: License, payment or account help
+    url: mailto:support@orbitcp.pro
+    about: For customers of Pro and Premium.
