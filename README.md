@@ -37,6 +37,7 @@ until you press **Approve**.
 - **Free plan**, no license key needed
 - **AI assistant** that investigates by itself and fixes things only after you approve them
 - **Websites and free SSL**: static, PHP and reverse proxy, with certificates that renew themselves
+- **Fast WordPress**: page cache that clears itself, Redis object cache, Brotli and browser caching
 - **One-click WordPress**, plus **Node.js and Python apps from Git** (Next.js, NestJS, Express, Flask, Django, FastAPI)
 - **Docker** with an App Store and your own compose stacks
 - **Databases**: MariaDB with phpMyAdmin, PostgreSQL 17 with PostGIS, Redis
@@ -79,7 +80,6 @@ Every new install gets a 14-day Premium trial. Plans and prices: **[orbitcp.pro/
 
 ### Coming next
 
-- [ ] **0.15 · Page cache**: Nginx FastCGI cache, WordPress-aware purge, Redis object cache
 - [ ] **0.16 · Remote backups**: S3, Backblaze and Google Drive
 - [ ] **0.17 · Alerts**: email when a disk fills up, an SSL certificate is about to expire, or a site or service goes down
 - [ ] **0.18 · WHMCS module and API keys**: sell hosting with automatic account setup, suspend and one-click login
@@ -89,6 +89,7 @@ Every new install gets a 14-day Premium trial. Plans and prices: **[orbitcp.pro/
 
 ### Done
 
+- [x] **0.15 · Page cache and speed**: page cache that clears itself, Redis object cache, Brotli, speed test
 - [x] **0.14 · Email hosting**: mailboxes, webmail, spam filter, DKIM, DNS checklist, forwarders
 - [x] **0.13 · File manager tools**: cut, copy, move, compress and extract
 - [x] **0.12 · One-line install** with checksum-verified builds
