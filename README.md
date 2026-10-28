@@ -44,7 +44,7 @@ until you press **Approve**.
 - **Client accounts** to host your customers, each in their own isolated Linux user, with packages and limits
 - **Security Center**: firewall, brute-force protection, safe SSH settings, web firewall and malware scans
 - **Email hosting**: mailboxes on your own domains with webmail, spam filter and DKIM
-- **Backups and cron jobs**, file manager and web terminal
+- **Backups** on the server and in remote storage (S3-compatible or SFTP), **cron jobs**, file manager and web terminal
 - Ready in about **3 minutes**, one command to install and upgrade
 - **Ubuntu 22.04, 24.04 and Debian 12**
 
@@ -80,7 +80,6 @@ Every new install gets a 14-day Premium trial. Plans and prices: **[orbitcp.pro/
 
 ### Coming next
 
-- [ ] **0.16 · Remote backups**: S3, Backblaze and Google Drive
 - [ ] **0.17 · Alerts**: email when a disk fills up, an SSL certificate is about to expire, or a site or service goes down
 - [ ] **0.18 · WHMCS module and API keys**: sell hosting with automatic account setup, suspend and one-click login
 - [ ] **0.19 · Release candidate**: install and upgrade tests on every supported OS, restore tests, security review
@@ -89,6 +88,7 @@ Every new install gets a 14-day Premium trial. Plans and prices: **[orbitcp.pro/
 
 ### Done
 
+- [x] **0.16 · Remote backups**: S3-compatible storage (Backblaze B2, Wasabi, Cloudflare R2, Amazon S3) and SFTP
 - [x] **0.15 · Page cache and speed**: page cache that clears itself, Redis object cache, Brotli, speed test
 - [x] **0.14 · Email hosting**: mailboxes, webmail, spam filter, DKIM, DNS checklist, forwarders
 - [x] **0.13 · File manager tools**: cut, copy, move, compress and extract
